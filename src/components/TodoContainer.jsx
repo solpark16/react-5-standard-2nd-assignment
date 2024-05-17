@@ -47,7 +47,6 @@ const TodoContainer = () => {
           deleteTodoHandler={deleteTodoHandler}
           toggleTodoHandler={toggleTodoHandler}
           todos={workingTodos}
-          setTodos={setTodos}
         />
         <TodoList
           title="Done"
@@ -55,7 +54,6 @@ const TodoContainer = () => {
           deleteTodoHandler={deleteTodoHandler}
           toggleTodoHandler={toggleTodoHandler}
           todos={doneTodos}
-          setTodos={setTodos}
         />
       </div>
     </>
